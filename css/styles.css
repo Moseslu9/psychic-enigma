@@ -1,0 +1,63 @@
+root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+body {
+  background: linear-gradient(
+    "hsl(0, 0%, 98%) 30deg, hsl(0, 0%, 41%) 60deg, hsl(0, 0%, 8%) 90deg"
+  );
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Epilogue";
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: "Epilogue";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 200px;
+}
+
+.img-size {
+  width: 450px;
+}
+
+.row-child {
+  width: 500px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.btn-border-radius {
+  border-radius: 10px;
+}
+
+.client {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+  .login-desktop {
+    display: none;
+  }
+}
